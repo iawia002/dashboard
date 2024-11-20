@@ -102,7 +102,7 @@ const NewWorkloadEditorModal: FC<NewWorkloadEditorModalProps> = (props) => {
         />
       </Form.Item>
       <Editor
-        height="600px"
+        height="450px"
         defaultLanguage="yaml"
         value={content}
         theme="vs"

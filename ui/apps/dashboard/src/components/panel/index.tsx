@@ -46,7 +46,8 @@ const Panel: FC<IPanelProps> = (props) => {
     return menuItems;
   }, [matches]);
   return (
-    <div className="w-full h-full px-[30px] py-[20px] box-border bg-[#FAFBFC]">
+    // <div className="w-full h-full px-[30px] py-[20px] box-border bg-[#FAFBFC]">
+    <div className="w-full h-full box-border bg-[#FAFBFC]">
       <div className="w-full h-full bg-white box-border p-[12px] overflow-y-scroll">
         <Breadcrumb className="mb-4" items={breadcrumbs} />
         {children}

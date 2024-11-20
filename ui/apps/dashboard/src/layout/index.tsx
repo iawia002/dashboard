@@ -22,13 +22,14 @@ export const MainLayout: FC = () => {
   return (
     <>
       <Header />
-      <AntdLayout className={cn('h-[calc(100vh-48px)]', 'overflow-hidden', 'flex')}>
+      <AntdLayout className={cn('h-[100vh]', 'overflow-hidden', 'flex')}>
         <AntdSider
           width={getSidebarWidth()}
           collapsible
           collapsed={isSmallScreen}
           breakpoint="lg"
           trigger={null}
+          style={{ display: 'none' }}
         >
           <Sidebar collapsed={isSmallScreen} />
         </AntdSider>

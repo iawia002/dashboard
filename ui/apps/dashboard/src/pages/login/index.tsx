@@ -62,6 +62,7 @@ const LoginPage = () => {
             <Button
               type="primary"
               onClick={async () => {
+                // navigate('/overview');
                 try {
                   const ret = await Login(authToken);
                   if (ret.code === 200) {

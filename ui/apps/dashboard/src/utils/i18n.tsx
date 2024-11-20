@@ -6,7 +6,7 @@ import enUS from 'antd/locale/en_US';
 const i18nInstance = createInstance({});
 
 export function getLang() {
-  return window.localStorage.getItem('i18next-lang') || 'en-US';
+  return window.localStorage.getItem('i18next-lang') || 'zh-CN';
 }
 
 export async function setLang(lang: string) {
